@@ -272,7 +272,9 @@ ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distr
 
 ***
 
-## More Advanced Wiki Creating Tools
+## More Advanced Wiki / Documentation Creation Tools
+
+[GitHub Pages](https://pages.github.com/)
 
 [GitBook](https://www.gitbook.com/)
 
