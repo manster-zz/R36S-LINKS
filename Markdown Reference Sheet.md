@@ -224,6 +224,7 @@ Example text
 <a href=''><img src="https://img.shields.io/github/watchers/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Watchers"   /></a>
 <a href=''><img src="https://img.shields.io/github/repo-size/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size"   /></a>
 [![Discord](https://img.shields.io/discord/741895796315914271.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/retrohandhelds)
+![](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)
 
 ArkOS Community Image [![GitHub Release](https://img.shields.io/github/v/release/AeolusUX/ArkOS-R3XS?style=flat)](https://github.com/AeolusUX/ArkOS-R3XS?tab=readme-ov-file#download-links)
 
