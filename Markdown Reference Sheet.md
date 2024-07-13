@@ -1,9 +1,16 @@
+# Cheat Sheet For Creating A GitHub Wiki / Documentation
+
+Creating a Wiki page for documentation on GitHub is pretty easy. There's really no coding experience necessary and the best thing it's free. I was using this markdown code for creating a **[R36S Wiki](https://github.com/manster-zz/R36S-LINKS/wiki)**.
 
 ***
+
+## Horizontal line
 
 `***`
 
 ***
+
+## Basic text formatting
 
 **Example text** `**Example text**` 
 
@@ -17,6 +24,8 @@ _Example text_ `_Example text_`
 
 ***
 
+## Creating Lists
+
 Example list
 * 1
 * 2
@@ -32,6 +41,8 @@ Example list
 ```
 
 ***
+
+## Headlines
 
 # Example headline 1 
 `# Example headline 1`
@@ -46,12 +57,16 @@ Example list
 `#### Example headline 4`
 
 ***
+
+## Table of Contents list
+
 - [Example headline 1](#example-headline-1)
   * [Example headline 2](#example-headline-2)
     + [Example headline 3](#example-headline-3)
       - [Example headline 4](#example-headline-4)
 
-```- [Example headline 1](#example-headline-1)
+```
+- [Example headline 1](#example-headline-1)
 
   * [Example headline 2](#example-headline-2)
 
@@ -62,12 +77,12 @@ Example list
 
 ***
 
+## Quotes and Infoboxes
+
 > Example quote 
 
 `> Example quote `
 
-***
-
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
@@ -101,6 +116,8 @@ Example list
 ```
 
 ***
+
+## Text alignment
 
 <div align="center">centered text</div>
 
@@ -112,6 +129,8 @@ Example list
 
 ***
 
+## Table
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
@@ -123,8 +142,12 @@ Example list
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 ```
+
+Use images with the same aspect ratio in tables or it will stretch them which does not look nice.
 
 ***
+
+## Table with images
 
 <table>
   <tr>
@@ -148,6 +171,8 @@ Example list
 
 ***
 
+## Image resizing (with link)
+
 <img src="https://lh3.googleusercontent.com/qnaJEbFIpvsWJm2KrRI_GIvz1yZdXntgEsCZxy-1pVZi244bCk1RFwdk0ZBRmmvdHiUl6sIa_tsmskL5WLKiigp2AMsIIxinOJNf39qCmacViRGXIOY"  width="100" height="150" />
 
 [<img src="https://lh3.googleusercontent.com/qnaJEbFIpvsWJm2KrRI_GIvz1yZdXntgEsCZxy-1pVZi244bCk1RFwdk0ZBRmmvdHiUl6sIa_tsmskL5WLKiigp2AMsIIxinOJNf39qCmacViRGXIOY"  width="150" height="150" />]()
@@ -164,6 +189,8 @@ Example list
 
 ***
 
+## Youtube video link with thumbnail
+
 <a href="https://www.youtube.com/watch?v=TuUFJzYDRwg"><img src="http://img.youtube.com/vi/TuUFJzYDRwg/0.jpg" width="240" height="180" /></a>
 
 `<a href=""><img src="http://img.youtube.com/vi/INSERTYOUTUBEIDHERE/0.jpg" width="240" height="180" /></a>`
@@ -171,19 +198,67 @@ Example list
 
 ***
 
+## Expandable section
+
 <details>
 <summary>CLICK HERE TO EXPAND</summary>
 Example text
+<img src="https://lh3.googleusercontent.com/qnaJEbFIpvsWJm2KrRI_GIvz1yZdXntgEsCZxy-1pVZi244bCk1RFwdk0ZBRmmvdHiUl6sIa_tsmskL5WLKiigp2AMsIIxinOJNf39qCmacViRGXIOY"  width="100"  />
 </details>
 
 ```
 <details>
 <summary>CLICK HERE TO EXPAND</summary>
 Example text
+<img src="https://lh3.googleusercontent.com/qnaJEbFIpvsWJm2KrRI_GIvz1yZdXntgEsCZxy-1pVZi244bCk1RFwdk0ZBRmmvdHiUl6sIa_tsmskL5WLKiigp2AMsIIxinOJNf39qCmacViRGXIOY"  width="100"  />
 </details>
 ```
 
 ***
+
+## Example Badges
+
+<a href=''><img src="https://img.shields.io/github/forks/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Forks"  /></a>
+<a href=''><img src="https://img.shields.io/github/stars/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Stars"   /></a>
+<a href=''><img src="https://img.shields.io/github/contributors-anon/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Contributors"   /></a>
+<a href=''><img src="https://img.shields.io/github/watchers/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Watchers"   /></a>
+<a href=''><img src="https://img.shields.io/github/repo-size/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size"   /></a>
+
+ArkOS Community Image [![GitHub Release](https://img.shields.io/github/v/release/AeolusUX/ArkOS-R3XS?style=flat)](https://github.com/AeolusUX/ArkOS-R3XS?tab=readme-ov-file#download-links)
+
+AmberELEC [![GitHub Pre-Release](https://img.shields.io/github/release-pre/AmberELEC/AmberELEC-prerelease?style=flat)](https://github.com/AmberELEC/AmberELEC-prerelease/releases/)
+
+ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distribution?style=flat)](https://github.com/ROCKNIX/distribution/releases)
+
+```
+<a href=''><img src="https://img.shields.io/github/forks/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Forks"  /></a>
+<a href=''><img src="https://img.shields.io/github/stars/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Stars"   /></a>
+<a href=''><img src="https://img.shields.io/github/contributors-anon/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Contributors"   /></a>
+<a href=''><img src="https://img.shields.io/github/watchers/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Watchers"   /></a>
+<a href=''><img src="https://img.shields.io/github/repo-size/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size"   /></a>
+
+ArkOS Community Image [![GitHub Release](https://img.shields.io/github/v/release/AeolusUX/ArkOS-R3XS?style=flat)](https://github.com/AeolusUX/ArkOS-R3XS?tab=readme-ov-file#download-links)
+
+AmberELEC [![GitHub Pre-Release](https://img.shields.io/github/release-pre/AmberELEC/AmberELEC-prerelease?style=flat)](https://github.com/AmberELEC/AmberELEC-prerelease/releases/)
+
+ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distribution?style=flat)](https://github.com/ROCKNIX/distribution/releases)
+```
+
+***
+
+[![Discord](https://img.shields.io/discord/741895796315914271.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/retrohandhelds)
+
+[Retro Handhelds Discord](https://discord.gg/retrohandhelds)
+
+```
+[![Discord](https://img.shields.io/discord/741895796315914271.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/retrohandhelds)
+
+[Retro Handhelds Discord](https://discord.gg/retrohandhelds)
+```
+
+***
+
+## Useful links for Markdown formatting
 
 [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
@@ -193,6 +268,17 @@ Example text
 
 [Generate TOC Table of Contents from GitHub Markdown or Wiki Online](https://ecotrust-canada.github.io/markdown-toc/)
 
+[More badge examples](https://github.com/munabedan/BadgeBonanza)
+
 [More useful links](https://github.com/MyHoneyBadger/awesome-github-wiki?tab=readme-ov-file#useful-links-with-tips--tricks)
 
 [Even more useful links](https://github.com/BubuAnabelas/awesome-markdown#readme)
+
+***
+
+## More Advanced Wiki Creating Tools
+
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - [example](https://rocknix.org/)
+
+[Docusaurus](https://docusaurus.io/) - [example](https://onionui.github.io/)
+
