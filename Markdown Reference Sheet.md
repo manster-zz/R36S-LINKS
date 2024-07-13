@@ -171,7 +171,7 @@ Use images with the same aspect ratio in tables or it will stretch them which do
 
 ***
 
-## Image resizing (with link)
+## Image resizing
 
 <img src="https://lh3.googleusercontent.com/qnaJEbFIpvsWJm2KrRI_GIvz1yZdXntgEsCZxy-1pVZi244bCk1RFwdk0ZBRmmvdHiUl6sIa_tsmskL5WLKiigp2AMsIIxinOJNf39qCmacViRGXIOY"  width="100" height="150" />
 
