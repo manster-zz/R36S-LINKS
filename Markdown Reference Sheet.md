@@ -223,6 +223,7 @@ Example text
 <a href=''><img src="https://img.shields.io/github/contributors-anon/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Contributors"   /></a>
 <a href=''><img src="https://img.shields.io/github/watchers/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Watchers"   /></a>
 <a href=''><img src="https://img.shields.io/github/repo-size/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size"   /></a>
+[![Discord](https://img.shields.io/discord/741895796315914271.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/retrohandhelds)
 
 ArkOS Community Image [![GitHub Release](https://img.shields.io/github/v/release/AeolusUX/ArkOS-R3XS?style=flat)](https://github.com/AeolusUX/ArkOS-R3XS?tab=readme-ov-file#download-links)
 
@@ -236,6 +237,7 @@ ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distr
 <a href=''><img src="https://img.shields.io/github/contributors-anon/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Contributors"   /></a>
 <a href=''><img src="https://img.shields.io/github/watchers/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Watchers"   /></a>
 <a href=''><img src="https://img.shields.io/github/repo-size/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size"   /></a>
+[![Discord](https://img.shields.io/discord/741895796315914271.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/retrohandhelds)
 
 ArkOS Community Image [![GitHub Release](https://img.shields.io/github/v/release/AeolusUX/ArkOS-R3XS?style=flat)](https://github.com/AeolusUX/ArkOS-R3XS?tab=readme-ov-file#download-links)
 
@@ -244,17 +246,13 @@ AmberELEC [![GitHub Pre-Release](https://img.shields.io/github/release-pre/Amber
 ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distribution?style=flat)](https://github.com/ROCKNIX/distribution/releases)
 ```
 
-***
+[Shields.io Badges](https://shields.io/badges)
 
-[![Discord](https://img.shields.io/discord/741895796315914271.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/retrohandhelds)
+[Badges Generator](https://badgesgenerator.com/)
 
-[Retro Handhelds Discord](https://discord.gg/retrohandhelds)
+[Badges for your personal developer branding, profile, and projects](https://github.com/Ileriayo/markdown-badges)
 
-```
-[![Discord](https://img.shields.io/discord/741895796315914271.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/retrohandhelds)
-
-[Retro Handhelds Discord](https://discord.gg/retrohandhelds)
-```
+[Lots of dynamic GitHub badge examples](https://github.com/munabedan/BadgeBonanza)
 
 ***
 
@@ -268,15 +266,15 @@ ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distr
 
 [Generate TOC Table of Contents from GitHub Markdown or Wiki Online](https://ecotrust-canada.github.io/markdown-toc/)
 
-[More badge examples](https://github.com/munabedan/BadgeBonanza)
+[A curated list of awesome GitHub Wikis](https://github.com/MyHoneyBadger/awesome-github-wiki?tab=readme-ov-file#awesome-github-wikis---)
 
-[More useful links](https://github.com/MyHoneyBadger/awesome-github-wiki?tab=readme-ov-file#useful-links-with-tips--tricks)
-
-[Even more useful links](https://github.com/BubuAnabelas/awesome-markdown#readme)
+[A curated list of delightful Markdown stuff](https://github.com/BubuAnabelas/awesome-markdown#readme)
 
 ***
 
 ## More Advanced Wiki Creating Tools
+
+[GitBook](https://www.gitbook.com/)
 
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - [example](https://rocknix.org/)
 
