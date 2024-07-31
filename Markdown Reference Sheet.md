@@ -1,6 +1,6 @@
 # Cheat Sheet For Creating A GitHub Wiki / Documentation
 
-Creating a Wiki page for documentation on GitHub is pretty easy. There's really no coding experience necessary and the best thing it's free. I was using this markdown code for creating a **[R36S Wiki](https://github.com/manster-zz/R36S-LINKS/wiki)**.
+Creating a Wiki page for documentation on GitHub is pretty easy. There's really no coding experience necessary and the best thing is that it's completely free. I was using this markdown code for creating a **[R36S Wiki](https://github.com/manster-zz/R36S-LINKS/wiki)**.
 
 ***
 
@@ -247,6 +247,8 @@ AmberELEC [![GitHub Pre-Release](https://img.shields.io/github/release-pre/Amber
 ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distribution?style=flat)](https://github.com/ROCKNIX/distribution/releases)
 ```
 
+[Hits / Page Views Counter](https://github.com/gjbae1212/hit-counter)
+
 [Shields.io Badges](https://shields.io/badges)
 
 [Badges Generator](https://badgesgenerator.com/)
@@ -279,7 +281,7 @@ ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distr
 
 [GitBook](https://www.gitbook.com/)
 
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - [example](https://rocknix.org/)
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - [example #1](https://rocknix.org/) - [example #2](https://manster-zz.github.io/RK3326/)
 
 [Docusaurus](https://docusaurus.io/) - [example](https://onionui.github.io/)
 
