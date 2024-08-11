@@ -1,0 +1,336 @@
+<!--
+  Theme: Elementerial
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!--Configurações de ajuda-->
+  <view name="system, basic, detailed, grid, video">
+    <helpsystem name="help">
+      <fontPath>${fontHelper}</fontPath>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <origin>0 0.5</origin>
+      <pos>0.016666667 0.96</pos>
+    </helpsystem>
+
+    <image name="borderOverlay" extra="true">
+      <path ifSubset="Ratio:ratio32">./assets/ratio32/borders.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/borders.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/borders.png</path>
+
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>100</zIndex>
+    </image>
+  </view>
+
+  <!--Configurações comuns de views-->
+  <view name="basic, detailed, grid, video">
+    <text name="logoText">
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${fontSizeH2-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeH2-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeH2-small}</fontSize>
+      <forceUppercase>0</forceUppercase>
+      <alignment>left</alignment>
+      <zIndex>5</zIndex>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <alignment>left</alignment>
+      <origin>0 0</origin>
+      <zIndex>5</zIndex>
+    </textlist>
+
+    <image name="background">
+      <path>./assets/background.png</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>-10</zIndex>
+    </image>
+
+    <image name="cover_list" extra="true">
+      <path>./assets/systems/${system.theme}.webp</path>
+      <opacity>0.3</opacity>
+      <size>1 0</size>
+      <origin>0 0.5</origin>
+      <pos>0 0.125</pos>
+      <zIndex>-5</zIndex>
+    </image>
+
+    <image name="cover_list" extra="true" ifSubset="Background Style:custom">
+      <path>./customBackground/${system.theme}.jpg</path>
+      <path>./customBackground/${system.theme}.jpeg</path>
+      <path>./customBackground/${system.theme}.png</path>
+      <path>./customBackground/${system.theme}.webp</path>
+
+      <path>./customBackground/general.jpg</path>
+      <path>./customBackground/general.jpeg</path>
+      <path>./customBackground/general.png</path>
+      <path>./customBackground/general.webp</path>
+    </image>
+
+    <image name="custom_bg_fg" extra="true">
+      <path>./assets/ratio32/gamelist-basic.png</path>
+      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-basic.png</path>
+      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-basic.png</path>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-4</zIndex>
+    </image>
+  </view>
+
+  <view name="basic, detailed, video">
+    <text name="logoText">
+      <pos>0.01 0.05</pos>      <!--480x320 / 16x 32y-->
+      <size>0.933333 ${fontSizeH2-medium}</size>      <!-- 480x320 / 448x -->
+      <origin>0 0.5</origin>
+    </text>
+
+    <textlist name="gamelist">
+      <pos>0 0.1</pos>      <!-- 480x320 / 0x 64y -->
+      <horizontalMargin>0.01333</horizontalMargin>      <!-- 16px -->
+
+      <lineSpacing>1.5</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.5</lineSpacing>
+      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.5</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.5</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio53">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.5</lineSpacing>
+    </textlist>
+  </view>
+
+  <view name="video">
+    <textlist name="gamelist">
+      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.7</lineSpacing>
+    </textlist>
+  </view>
+
+  <view name="basic">
+    <textlist name="gamelist">
+      <size>1 0.8</size>      <!-- 480x320 / 480x 256y-->
+      <size ifHelpPrompts="true">1 0.725</size>      <!-- 480x320 / 480x 232y-->
+    </textlist>
+  </view>
+
+  <view name="detailed">
+    <textlist name="gamelist">
+      <size>0.466667 0.9</size>      <!-- 480x320 / 224x 256y-->
+      <size ifHelpPrompts="true">0.466667 0.725</size>      <!-- 480x320 / 224x 232y-->
+    </textlist>
+
+    <image name="md_image">
+      <pos>0.733333 0.425</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.466667 0.55</maxSize>      <!-- 480x320 / 224x 176y -->
+      <zIndex>5</zIndex>
+      <roundCorners>0.02</roundCorners>
+    </image>
+
+    <image name="md_marquee">
+      <pos>0.733333 0.15</pos>      <!-- 480x320 / 352x 80y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.4 0.175</maxSize>      <!-- 480x320 / 192x 56y -->
+      <zIndex>6</zIndex>
+    </image>
+
+    <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
+      <visible>false</visible>
+    </text>
+    <text name="md_developer, md_publisher, md_genre, md_players">
+      <visible>false</visible>
+    </text>
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+      <size>0.30 0.035</size>
+      <alignment>left</alignment>
+      <color>${fgColor}</color>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <forceUppercase>true</forceUppercase>
+    </text>
+    <text name="md_developer, md_publisher, md_genre, md_players, md_playcount">
+      <size>0.30 0.035</size>
+      <alignment>right</alignment>
+      <color>${fgColor}</color>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <forceUppercase>false</forceUppercase>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed, md_gametime">
+      <size>0.30 0.035</size>
+      <alignment>right</alignment>
+      <color>${fgColor}</color>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <forceUppercase>false</forceUppercase>
+    </datetime>
+    <text name="md_lbl_releasedate">
+      <origin>0 0</origin>
+      <pos>0.53 0.740</pos>
+    </text>
+    <text name="md_lbl_lastplayed">
+      <origin>0 0</origin>
+      <pos>0.53 0.785</pos>
+    </text>
+    <text name="md_lbl_gametime">
+      <origin>0 0</origin>
+      <pos>0.53 0.825</pos>
+    </text>
+    <text name="md_lbl_playcount">
+      <origin>0 0</origin>
+      <pos>0.53 0.870</pos>
+    </text>
+    <datetime name="md_releasedate">
+      <origin>1 0</origin>
+      <pos>0.96 0.740</pos>
+    </datetime>
+    <datetime name="md_lastplayed">
+      <origin>1 0</origin>
+      <pos>0.96 0.785</pos>
+    </datetime>
+    <text name="md_gametime">
+      <origin>1 0</origin>
+      <pos>0.96 0.825</pos>
+    </text>
+    <text name="md_playcount">
+      <origin>1 0</origin>
+      <pos>0.96 0.870</pos>
+    </text>
+
+  </view>
+
+
+  <view name="video">
+    <image name="md_marquee">
+      <pos>0.733333 0.15</pos>      <!-- 480x320 / 352x 80y -->
+      <origin>0.5 0.5</origin>
+      <maxSize>0.4 0.175</maxSize>      <!-- 480x320 / 192x 56y -->
+      <zIndex>6</zIndex>
+    </image>
+
+    <video name="md_video">
+      <origin>0 0.5</origin>
+      <pos>0.50 0.42</pos>      <!-- 480x320 / 352x 80y -->
+      <maxSize>0.5 0.5</maxSize>
+      <delay>1</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <effect>none</effect>
+
+      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail|videoDefault">thumbnail</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot">image</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
+      <zIndex>0</zIndex>
+    </video>
+
+
+
+
+    <textlist name="gamelist">
+      <size>0.466667 0.99</size>      <!-- 480x320 / 224x 256y-->
+      <size ifHelpPrompts="true">0.466667 0.8</size>      <!-- 480x320 / 224x 232y-->
+    </textlist>
+
+
+    <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
+      <visible>false</visible>
+    </text>
+    <text name="md_developer, md_publisher, md_genre, md_players">
+      <visible>false</visible>
+    </text>
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+      <size>0.30 0.035</size>
+      <alignment>left</alignment>
+      <color>${fgColor}</color>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <forceUppercase>true</forceUppercase>
+    </text>
+    <text name="md_developer, md_publisher, md_genre, md_players, md_playcount">
+      <size>0.30 0.035</size>
+      <alignment>right</alignment>
+      <color>${fgColor}</color>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <forceUppercase>false</forceUppercase>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed, md_gametime">
+      <size>0.30 0.035</size>
+      <alignment>right</alignment>
+      <color>${fgColor}</color>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <forceUppercase>false</forceUppercase>
+    </datetime>
+    <text name="md_lbl_releasedate">
+      <origin>0 0</origin>
+      <pos>0.53 0.740</pos>
+    </text>
+    <text name="md_lbl_lastplayed">
+      <origin>0 0</origin>
+      <pos>0.53 0.785</pos>
+    </text>
+    <text name="md_lbl_gametime">
+      <origin>0 0</origin>
+      <pos>0.53 0.825</pos>
+    </text>
+    <text name="md_lbl_playcount">
+      <origin>0 0</origin>
+      <pos>0.53 0.870</pos>
+    </text>
+    <datetime name="md_releasedate">
+      <origin>1 0</origin>
+      <pos>0.96 0.740</pos>
+    </datetime>
+    <datetime name="md_lastplayed">
+      <origin>1 0</origin>
+      <pos>0.96 0.785</pos>
+    </datetime>
+    <text name="md_gametime">
+      <origin>1 0</origin>
+      <pos>0.96 0.825</pos>
+    </text>
+    <text name="md_playcount">
+      <origin>1 0</origin>
+      <pos>0.96 0.870</pos>
+    </text>
+
+  </view>
+
+
+
+
+
+</theme>
