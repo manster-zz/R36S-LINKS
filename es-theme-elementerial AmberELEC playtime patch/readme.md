@@ -1,3 +1,5 @@
+# Elementerial theme patch to display playtime (AmberELEC)
+
 Simple theme customization to display playtime, last time played, times played and release date. Video view also changed to same as Detailed view.
 
 This only works on AmberELEC custom firmware. ArkOS does not support playtime metadata.
