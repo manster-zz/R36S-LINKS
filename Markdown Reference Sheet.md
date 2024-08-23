@@ -1,3 +1,4 @@
+<a name="page-top"></a>
 # Cheat Sheet For Creating A GitHub Wiki / Documentation
 
 Creating a Wiki page for documentation on GitHub is pretty easy. There's really no coding experience necessary and the best thing is that it's completely free. I was using this markdown code for creating a **[R36S Wiki](https://github.com/manster-zz/R36S-LINKS/wiki)**.
@@ -256,6 +257,31 @@ ROCKNIX [![GitHub Release](https://img.shields.io/github/v/release/ROCKNIX/distr
 [Badges for your personal developer branding, profile, and projects](https://github.com/Ileriayo/markdown-badges)
 
 [Lots of dynamic GitHub badge examples](https://github.com/munabedan/BadgeBonanza)
+
+***
+
+## Page Navigation
+
+|:arrow_left: Previous Page: [GitHub](https://github.com/)       |              ⬆️ <a href="#page-top">Back to top</a>              |:arrow_right: Next Page: [Google](https://www.google.com/)
+|---------------------------|---------------------------|---------------------------|
+
+```
+<a name="page-top"></a>
+
+
+|:arrow_left: Previous Page:        |              ⬆️ <a href="#page-top">Back to top</a>              |:arrow_right: Next Page: 
+|---------------------------|---------------------------|---------------------------|
+
+```
+
+***
+## Empty Space
+
+&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
+
+```
+&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>&nbsp;
+```
 
 ***
 
