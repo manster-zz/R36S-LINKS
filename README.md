@@ -14,6 +14,5 @@ Please check the Wiki page for more information!
 <a href=''><img src="https://img.shields.io/github/stars/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Stars"   /></a>
 <a href=''><img src="https://img.shields.io/github/contributors-anon/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Contributors"   /></a>
 <a href=''><img src="https://img.shields.io/github/watchers/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Watchers"   /></a>
-<a href=''><img src="https://img.shields.io/github/repo-size/manster-zz/R36S-LINKS?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size"   /></a>
 
 </div>
